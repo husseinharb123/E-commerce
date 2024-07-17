@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "dependencies": {
-    "@craco/craco": "",
+    "@craco/craco": "^5.9.0",
     "@fortawesome/react-fontawesome": "",
     "@testing-library/jest-dom": "",
     "@testing-library/react": "",
@@ -10,7 +10,7 @@
     "axios": "",
     "bootstrap": "",
     "bootstrap-icons": "",
-    "craco-plugin-scoped-css": "",
+    "craco-plugin-scoped-css": "^1.1.1",
     "immer": "",
     "jquery": "",
     "mdb-react-ui-kit": "",
@@ -27,8 +27,8 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
